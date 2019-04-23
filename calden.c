@@ -1,3 +1,4 @@
+# C code for calculating the density of ocean from pressure, temparature and salinity
 #include<stdio.h>
 #include<math.h>
 void main(int argc, char *argv[])
