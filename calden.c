@@ -35,7 +35,7 @@ float getden(int d,float t,float s)
 
   // to calculate row(s,t,0) value
 
-  temp1 = 999.842594 + (6.793952*pow10(-2)*t)- (9.095290*pow10(-3)*pow(t,2));
+  temp1 = 0.157406 + (6.793952*pow10(-2)*t)- (9.095290*pow10(-3)*pow(t,2));
   temp2 = (1.001685*pow10(-4)*pow(t,3))-(1.120083*pow10(-6)*pow(t,4));
   temp3 = (6.536332*pow10(-9)*pow(t,5))+(8.24493*pow10(-1)*s)-(4.0899*pow10(-3)*t*s);
   temp4 = (7.6438*pow10(-5)*pow(t,2)*s)-(8.2467*pow10(-7)*pow(t,3)*s);
